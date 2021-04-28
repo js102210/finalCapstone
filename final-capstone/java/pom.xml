@@ -81,11 +81,7 @@
             <artifactId>hibernate-validator</artifactId>
             <version>7.0.1.Final</version>
         </dependency>
-        <dependency>
-            <groupId>com.techelevator</groupId>
-            <artifactId>final-capstone-starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
@@ -109,7 +105,7 @@
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>3.0.4</version>
                 <configuration>
-                    <appName>beefcakes-capstone</appName>
+                    <appName>cake-capstone-deploy</appName>
                     <processTypes>
                         <web>java $JAVA_OPTS -Dserver.port=$PORT -cp target/classes:target/dependency/* com.techelevator.Application</web>
                     </processTypes>
