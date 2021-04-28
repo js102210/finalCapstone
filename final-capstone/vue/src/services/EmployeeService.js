@@ -3,7 +3,6 @@ import axios from 'axios';
 export default {
 //note - all API calls in Employee Service require authorization
 
-
 getAllOrders(){
 return axios.get('/orders');
 },

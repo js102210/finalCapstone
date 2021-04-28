@@ -47,7 +47,6 @@
 /* 'Roboto Slab', serif;  'Antic Slab', serif;  'Abril Fatface', cursive; 'Josefin Slab', serif;
    'Parisienne', cursive; 'Lancelot', cursive; 'Comic Neue',  */
 
-
 html {
   background: repeating-linear-gradient(90deg, #e9feff, #e9feff 50px, #ffb8ea 50px, #ffb8ea 100px);
   min-height:100%;
