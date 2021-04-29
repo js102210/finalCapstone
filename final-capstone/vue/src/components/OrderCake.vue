@@ -407,7 +407,7 @@ export default {
           (element) => element.extraID != event.target.value
         );
       }
-      console.log(this.standardCakeOrderJSON.cakeItemExtras);
+     // console.log(this.standardCakeOrderJSON.cakeItemExtras);
     },
 
     /**used to preseelect items in the standardCakeOrderJSON depending on the cake type selected in
